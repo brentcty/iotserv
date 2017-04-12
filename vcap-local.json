@@ -1,0 +1,42 @@
+{
+    "cloudantNoSQLDB": [
+        {
+            "credentials": {
+                "username": "7aa4ae57-873b-4f03-8d32-33cb7c6fa8c6-bluemix",
+                "password": "4ba20db2dde9bd9403b89b9daa02c9ae9e77d3318f5b70f6d1fcb2cb49740031",
+                "host": "7aa4ae57-873b-4f03-8d32-33cb7c6fa8c6-bluemix.cloudant.com",
+                "port": 443,
+                "url": "https://7aa4ae57-873b-4f03-8d32-33cb7c6fa8c6-bluemix:4ba20db2dde9bd9403b89b9daa02c9ae9e77d3318f5b70f6d1fcb2cb49740031@7aa4ae57-873b-4f03-8d32-33cb7c6fa8c6-bluemix.cloudant.com"
+            },
+            "syslog_drain_url": null,
+            "label": "cloudantNoSQLDB",
+            "provider": null,
+            "plan": "Lite",
+            "name": "iotserv-cloudantNoSQLDB",
+            "tags": [
+                "data_management",
+                "ibm_created",
+                "lite",
+                "ibm_dedicated_public"
+            ]
+        }
+    ],
+    "AvailabilityMonitoring": [
+        {
+            "credentials": {
+                "cred_url": "https://perfbroker.ng.bluemix.net",
+                "token": "chE2r6Uljs3dJl0gq8qc/Pui/F0f4A+nZrfG6ZeDX2lMQsVcn9RtlluSmWp+nWuI09UWLIdzMR//YUpkHsPjACPjRpNnKC7DWqZW1eqq6kw="
+            },
+            "syslog_drain_url": null,
+            "label": "AvailabilityMonitoring",
+            "provider": null,
+            "plan": "Lite",
+            "name": "availability-monitoring-auto",
+            "tags": [
+                "ibm_created",
+                "bluemix_extensions",
+                "dev_ops"
+            ]
+        }
+    ]
+}
